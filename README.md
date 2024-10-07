@@ -53,3 +53,17 @@ Une classe `Entreprise` permet de tester les opérations CRUD. Elle modélise é
 1. **Cloner le dépôt du projet** :
    ```bash
    git clone https://github.com/username/gestion-employes.git
+   
+2.   **Configurer la base de données** :
+
+Créez une base de données MySQL nommée taf2.
+Importez le fichier SQL fourni dans le dossier sql/ pour créer les tables manager et developpeur.
+
+3.   **Configurer les propriétés de connexion** :
+
+Dans le fichier config.properties, renseignez les informations de connexion à votre base de données (URL, utilisateur, mot de passe).
+
+4.   **Compiler et exécuter le projet** :
+
+Importez le projet dans votre IDE.
+Compilez et exécutez les classes de test pour vérifier le bon fonctionnement des opérations CRUD.
