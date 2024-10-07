@@ -56,14 +56,27 @@ Une classe `Entreprise` permet de tester les opérations CRUD. Elle modélise é
    
 2.   **Configurer la base de données** :
 
-Créez une base de données MySQL nommée taf2.
-Importez le fichier SQL fourni dans le dossier sql/ pour créer les tables manager et developpeur.
+   Créez une base de données MySQL nommée taf2.
+   Importez le fichier SQL fourni dans le dossier sql/ pour créer les tables manager et developpeur.
 
 3.   **Configurer les propriétés de connexion** :
+   
+   Dans le fichier config.properties, renseignez les informations de connexion à votre base de données (URL, utilisateur, mot de passe).
 
-Dans le fichier config.properties, renseignez les informations de connexion à votre base de données (URL, utilisateur, mot de passe).
+5.   **Compiler et exécuter le projet** :
+   
+   Importez le projet dans votre IDE.
+   Compilez et exécutez les classes de test pour vérifier le bon fonctionnement des opérations CRUD.
 
-4.   **Compiler et exécuter le projet** :
+### Utilisation 
 
-Importez le projet dans votre IDE.
-Compilez et exécutez les classes de test pour vérifier le bon fonctionnement des opérations CRUD.
+L'application permet d'effectuer les opérations suivantes :
+
+- Ajouter un manager ou un développeur.
+- Mettre à jour les informations d'un employé.
+- Supprimer un employé de la base de données.
+- Afficher la hiérarchie complète des employés avec les relations manager-développeur.
+### Auteurs
+
+Badr Korichi - Développeur principal.
+PR. Laachgar Mohammed - Encadrant académique.
